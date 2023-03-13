@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Api learning GET" timestamp="2023-03-13T22:24:10" time="11.886" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Api learning GET"/>
+      <property name="capabilities" value="chrome.111_0_5563_65.windows"/>
+      <property name="file" value="file:///C:/Users/quang/OneDrive/LEO%20PC%202021/Money%202022/TAI%20LIEU%20TESTER/Automation%20Tu%20Hoc/SDETPRO/WebdriverIO%20and%20Selenium/SRC/getText.js"/>
+    </properties>
+    <testcase classname="chrome.111_0_5563_65.windows.Api_learning_GET" name="Gettext" time="11.886">
+      <system-out><![CDATA[
+COMMAND: POST /session/be5ff3c08efd8dda77ec2347dc89c08e/url - {"url":"https://the-internet.herokuapp.com/"}
+RESULT: {"url":"https://the-internet.herokuapp.com/"}
+COMMAND: POST /session/be5ff3c08efd8dda77ec2347dc89c08e/element - {"using":"link text","value":"Dropdown"}
+RESULT: {"using":"link text","value":"Dropdown"}
+COMMAND: POST /session/be5ff3c08efd8dda77ec2347dc89c08e/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"86ec9203-f732-4197-abb4-217c12106692","ELEMENT":"86ec9203-f732-4197-abb4-217c12106692"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"86ec9203-f732-4197-abb4-217c12106692","ELEMENT":"86ec9203-f732-4197-abb4-217c12106692"}]}
+COMMAND: POST /session/be5ff3c08efd8dda77ec2347dc89c08e/element - {"using":"link text","value":"Dropdown"}
+RESULT: {"using":"link text","value":"Dropdown"}
+COMMAND: POST /session/be5ff3c08efd8dda77ec2347dc89c08e/element/86ec9203-f732-4197-abb4-217c12106692/click - {}
+RESULT: {}
+COMMAND: POST /session/be5ff3c08efd8dda77ec2347dc89c08e/element - {"using":"css selector","value":"h3"}
+RESULT: {"using":"css selector","value":"h3"}
+COMMAND: POST /session/be5ff3c08efd8dda77ec2347dc89c08e/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"8c97896d-e759-4792-8e60-5d8ee310ea3c","ELEMENT":"8c97896d-e759-4792-8e60-5d8ee310ea3c"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"8c97896d-e759-4792-8e60-5d8ee310ea3c","ELEMENT":"8c97896d-e759-4792-8e60-5d8ee310ea3c"}]}
+COMMAND: POST /session/be5ff3c08efd8dda77ec2347dc89c08e/element - {"using":"css selector","value":"h3"}
+RESULT: {"using":"css selector","value":"h3"}
+COMMAND: GET /session/be5ff3c08efd8dda77ec2347dc89c08e/element/8c97896d-e759-4792-8e60-5d8ee310ea3c/text - {}
+RESULT: {}
+COMMAND: DELETE /session/be5ff3c08efd8dda77ec2347dc89c08e - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
